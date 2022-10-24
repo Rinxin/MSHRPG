@@ -1,4 +1,11 @@
 {
+  "Combat Encounter":{},
+  "Scene":{},
   "Actor":{},
-  "Item":{}
+  "Item":{},
+  "Journal":{},
+  "Rollable Tables":{},
+  "Card Stacks":{},
+  "Playlists"{}
+
 }
