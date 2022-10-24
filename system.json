@@ -1,0 +1,26 @@
+{
+  "name":"MSHRPG",
+  "title:"Marvel Super Heroes RPG",
+  "description":"",
+  "author":"Rinxin",
+  "version":"0.01",
+  "minimumCoreVersion":"10.0",
+  "compatibleCoreVersion":"10.0",
+  "esmodules": [
+    "MSHRPG.js"
+  ],
+  "styles": [
+    "MSHRPG.css"
+  ],
+  "packs": [
+  
+  ],
+  "languages": [
+  
+  ],
+  "gridDistance":"33",
+  "gridUnis":"ft",
+  "primaryTokenAtribute":"health",
+  "initiative":"1d100 + @initiative_bonus",
+  "":"",
+}
