@@ -1,26 +1,49 @@
 {
-  "name":"MSHRPG",
-  "title:"Marvel Super Heroes RPG",
-  "description":"",
-  "author":"Rinxin",
-  "version":"0.01",
-  "minimumCoreVersion":"10.0",
-  "compatibleCoreVersion":"10.0",
-  "esmodules": [
-    "MSHRPG.js"
-  ],
-  "styles": [
-    "MSHRPG.css"
-  ],
-  "packs": [
-  
-  ],
-  "languages": [
-  
-  ],
-  "gridDistance":"33",
-  "gridUnis":"ft",
-  "primaryTokenAtribute":"health",
-  "initiative":"1d100 + @initiative_bonus",
-  "":"",
+    "title": "Custom System Builder",
+    "version": "2.1.0",
+    "scripts": ["lib/math.js", "scripts/chat-enhancements.js"],
+    "esmodules": ["module/custom-system-builder.js"],
+    "styles": [
+        "css/actor/character-display.css",
+        "css/actor/template-display.css",
+        "css/chat-message.css",
+        "css/attributes-editor.css",
+        "css/component-editor.css",
+        "css/user-input-editor.css",
+        "css/export-display.css",
+        "css/modifiers-editor.css"
+    ],
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "url": "https://gitlab.com/custom-system-builder/custom-system-builder/",
+    "manifest": "https://gitlab.com/custom-system-builder/custom-system-builder/-/raw/main/system.json",
+    "download": "https://gitlab.com/custom-system-builder/custom-system-builder/-/releases/2.1.0/downloads/custom-system-builder.zip",
+    "id": "custom-system-builder",
+    "authors": [
+        {
+            "name": "Jean-Baptiste Louvet-Daniel"
+        },
+        {
+            "name": "Martin1522"
+        }
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "_chatcommands",
+                "type": "module",
+                "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.4.0/module.json",
+                "compatibility": {
+                    "verified": "1.4.0"
+                }
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10.276",
+        "maximum": "10"
+    },
+    "name": "custom-system-builder",
+    "minimumCoreVersion": "10"
 }

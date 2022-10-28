@@ -1,0 +1,27 @@
+{
+    "name": "custom-system-builder",
+    "description": "Build your custom system without any line of code !",
+    "version": "2.1.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/linkedfluuuush/custom-system-builder.git"
+    },
+    "keywords": [
+        "foundryvtt",
+        "system",
+        "custom",
+        "builder",
+        "sheet"
+    ],
+    "author": "LinkedFluuuush",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/linkedfluuuush/custom-system-builder/issues"
+    },
+    "homepage": "https://gitlab.com/linkedfluuuush/custom-system-builder#readme",
+    "devDependencies": {
+        "prettier": "^2.5.1",
+        "jsdoc": "^3.6.10"
+    }
+}
